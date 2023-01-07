@@ -1,6 +1,7 @@
 /*rgb color red */
 .odd-number {
     background-color: rgb(232, 82, 82);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
 
 .number-3 {
