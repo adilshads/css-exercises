@@ -1,3 +1,9 @@
+/*rgb color red */
 .odd-number {
     background-color: rgb(232, 82, 82);
+}
+
+/* hex color blue */
+#number-2 {
+    color: #0000ff;
 }
