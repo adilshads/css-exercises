@@ -3,6 +3,9 @@
     background-color: rgb(232, 82, 82);
 }
 
+.number-3 {
+    font-size: large;
+}
 /* hex color blue */
 #number-2 {
     color: #0000ff;
