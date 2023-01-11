@@ -6,4 +6,10 @@
 
 .black-background {
     color: white;
+    background-color: black;
 }
+
+.yellow-background {
+    background-color: yellow;
+}
+
