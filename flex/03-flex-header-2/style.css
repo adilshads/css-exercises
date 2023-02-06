@@ -16,6 +16,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
 }
 
 .profile-image {
@@ -31,6 +32,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  flex-grow: 1;
 }
 
 button {
@@ -53,6 +55,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  justify-content: flex-start;
 }
 
 .left {
