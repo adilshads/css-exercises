@@ -38,6 +38,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  display: flex;
 }
 
 a {
@@ -57,4 +58,5 @@ ul {
 
 .right {
   display: flex;
+  justify-content: right;
 }
