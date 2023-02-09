@@ -4,18 +4,12 @@ body {
 
 .plants {
   display: flex;
-  flex-direction: row;
-  align-content: space-evenly;
-  gap: 52px;
-  /*flex-wrap: wrap;*/
+  flex-wrap: nowrap;
+ /* flex-direction: row; */
+ /* justify-content: space-evenly; /*
+  /* gap: 52px;
+  lex-wrap: wrap;*/
 }
-
-/*
-div .plant1 {
-  display: flex; 
-}
-*/
-
 
 img {
   width: 40%;
