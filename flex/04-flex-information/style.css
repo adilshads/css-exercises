@@ -30,6 +30,7 @@ body {
   display: flex;
  /* flex-wrap: nowrap; */
   justify-content: center;
+  margin-left: 30px;
  /* align-items: center; */
 } 
 
