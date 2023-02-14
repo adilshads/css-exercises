@@ -35,6 +35,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  margin: 10px;
 }
 
 .information {
@@ -45,10 +46,16 @@ body {
 .information .headline {
   display: flex;
   justify-content: space-between;
+  margin: 5px;
 }
 
 .information .options {
   display: flex;
+  margin: 5px;
+}
+
+.text {
+  margin: 5px
 }
 
 .close-button {
