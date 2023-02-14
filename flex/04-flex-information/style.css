@@ -2,42 +2,8 @@ body {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   height: 100vh;
-}
-
-.plants-container{
-  width: 80%;
-  text-align: center;
-}
-
-
-.plants {
- /* display: flex;
-  lex-wrap: nowrap; 
-  flex-direction: row;
-  align-content: stretch;
-  justify-content: space-around;
-  width: 80%;
-  text-align: center;
- /* flex-direction: row; */
- /* justify-content: space-evenly; /*
-  /* gap: 52px;
-  lex-wrap: wrap;
-  */
-} 
-
-img {
-  width: 40%;
-  height: auto;
-  margin: 0 10px;
-}
-
-.text {
-  width: 60%;
-  text-align: center;
-  margin: 0 10px;
 }
 
 .title {
@@ -47,6 +13,39 @@ img {
   justify-content: center;
   width: 100%;
   margin: 32px;
+  text-align: center;
+}
+
+.plants-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.plants {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+} 
+
+plant1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+img {
+  width: 40%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.text {
+  width: 60%;
+  text-align: center;
 }
 
 /* do not edit this footer */
