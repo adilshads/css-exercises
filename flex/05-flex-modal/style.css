@@ -42,6 +42,9 @@ body {
   flex-direction: column;
 }
 
+.information .headline {
+  display: flex;
+}
 .close-button {
   background: #eee;
   border-radius: 50%;
