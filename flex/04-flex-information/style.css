@@ -19,22 +19,22 @@ body {
 .plants-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
+ /* align-items: center;
+  width: 100%; */
 }
 
 .plants {
   display: flex;
-  flex-wrap: nowrap;
+ /* flex-wrap: nowrap; */
   justify-content: center;
-  align-items: center;
+ /* align-items: center; */
 } 
 
 plant1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 20px;
+  /* margin: 0 20px; */
 }
 
 img {
