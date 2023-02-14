@@ -1,14 +1,21 @@
 body {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
+.plants-container{
+  width: 80%;
+  text-align: center;
+}
+
+
 .plants {
-  display: flex;
-  /*flex-wrap: nowrap; */
+ /* display: flex;
+  lex-wrap: nowrap; 
   flex-direction: row;
   align-content: stretch;
   justify-content: space-around;
@@ -17,8 +24,9 @@ body {
  /* flex-direction: row; */
  /* justify-content: space-evenly; /*
   /* gap: 52px;
-  lex-wrap: wrap;*/
-}
+  lex-wrap: wrap;
+  */
+} 
 
 img {
   width: 40%;
@@ -53,4 +61,3 @@ img {
   justify-content: center;
   background: #eee;
 }
-. 
