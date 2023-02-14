@@ -9,6 +9,10 @@ body {
   flex-direction: column;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -16,6 +20,7 @@ body {
 
 .header .left-links {
   display: flex;
+
 }
 
 .header .right-links {
