@@ -39,6 +39,7 @@ body {
 
 .information {
   display: flex;
+  flex-direction: column;
 }
 
 .close-button {
