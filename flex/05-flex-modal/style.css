@@ -53,11 +53,11 @@ body {
 
 .information .options {
   display: flex;
-  margin: 5px;
+  margin-bottom: 10px;
 }
 
 .text {
-  margin: 5px
+  margin-bottom: 10px
 }
 
 .close-button {
