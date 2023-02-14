@@ -44,7 +44,9 @@ body {
 
 .information .headline {
   display: flex;
+  justify-content: space-between;
 }
+
 .close-button {
   background: #eee;
   border-radius: 50%;
