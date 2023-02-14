@@ -47,6 +47,10 @@ body {
   justify-content: space-between;
 }
 
+.information .options {
+  display: flex;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
