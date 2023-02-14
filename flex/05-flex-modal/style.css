@@ -47,6 +47,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 5px;
+  font-weight: bold;
 }
 
 .information .options {
