@@ -25,12 +25,19 @@ ul {
   display: flex;
   margin: 0;
   padding: 0;
+  position: absolute;
+  top: 0;
+  transform: translate(10%, 50%);
 }
 
 .header .right-links {
   display: flex;
   margin: 0;
   padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-10%, 50%);
 }
 
 .content {
