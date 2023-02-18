@@ -43,6 +43,21 @@ ul {
 
 .footer {
   display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .left-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .right-links {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 img {
