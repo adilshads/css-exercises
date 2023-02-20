@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  position: relative;
 }
 
 .header {
@@ -37,16 +38,19 @@ body {
   background: #eee;
   color: darkmagenta;
   margin-top: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 72px;
   left: 0;
-  bottom: 0;
-  margin-top: 72px;
+  bottom: 72px;
+  /* margin-top: 72px; */
 }
 
 .card {
@@ -54,7 +58,14 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
+  /*
+  width: calc(100% - 330px); /* added
+  margin-left: 20px; 
+  margin-top: 20px; 
+  */ 
+  
   height: 200px;
   width: 200px; 
   margin: 10px;
+  
 }
