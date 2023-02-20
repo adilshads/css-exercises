@@ -49,7 +49,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
-  height: 200px; /* add a fixed height */
-  width: 200px; /* add a fixed width */
-  margin: 10px; /* add some margin to space out the cards */
+  height: 200px;
+  width: 200px; 
+  margin: 10px; 
 }
